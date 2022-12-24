@@ -5,7 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>TypeScriptを理解する</title>
-    <script src="dist/bundle.js" defer></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDl_Z5jEw8WusINP2lNJhJieVUvGmr4YkU" defer></script>
+    <script src="dist/app.js" defer></script>
+    <link rel="stylesheet" href="app.css" />
   </head>
-  <body></body>
+  <body>
+    <div id="map">
+      <p>住所を入力してください。</p>
+    </div>
+    <form>
+      <input type="text" id="address" />
+      <button type="submit">検索</button>
+    </form>
+  </body>
 </html>
